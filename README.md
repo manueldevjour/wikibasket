@@ -15,7 +15,7 @@ Guía del proyecto para las distintas asignaturas:
 
 [Documentación del proyecto](https://github.com/manueldevjour/wikibasket/blob/master/Documentaci%C3%B3n%20Proyecto%20Final%20-%20Wikibasket%20-%20Final.pdf)
 
-###Fuentes de información
+### Fuentes de información
 
 [What is GeoJSON?](https://es.wikipedia.org/wiki/GeoJSON) - [GeoJSON official web page](http://geojson.org/)
 
@@ -31,8 +31,11 @@ Info for team by [US states](https://state.1keydata.com/nba-teams-by-state.php)
 
 [ISO 3166-2 codes](https://en.wikipedia.org/wiki/ISO_3166-2#Current_codes)
 
-###Algunas llamadas a la API
+### Algunas llamadas a la API
 [Llamada para sacar la info del equipo](http://stats.nba.com/stats/teaminfocommon/?TeamID=1610612754&Season=2003-04&SeasonType=Regular&LeagueID=00)
+
 [Llamada para sacar el roster del equipo - Entrenadores y jugadores](http://stats.nba.com/stats/commonteamroster/?TeamID=1610612737&Season=2000-01)
+
 [Llamada para sacar la info de TODOS los jugadores](http://stats.nba.com/stats/commonallplayers/?LeagueID=00&Season=2017-18&IsOnlyCurrentSeason=1)
+
 [Llamada para sacar la info específica de un solo jugador](http://stats.nba.com/stats/commonplayerinfo/?PlayerID=1544)
