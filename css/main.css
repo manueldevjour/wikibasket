@@ -1,0 +1,61 @@
+.circle {
+    height: 32px;
+    width: 32px;
+}
+
+.nombre {
+    font-family: 'Graduate', cursive;
+}
+
+.container, .container-fluid {
+    margin-top: .5%;
+}
+
+#dialog-confirm {
+    display: none;
+}
+
+.navbar {
+    box-shadow: 0px 5px 5px lightslategrey;
+}
+
+.navbar-brand {
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.5em;
+}
+
+.dropdown-menu {
+    z-index: 2;
+}
+
+.btn-group-sm > .btn, .btn-sm {
+    font-size: 1em;
+    line-height: 1;
+    border-radius: 1rem;
+    margin-top: 8%;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  outline: none !important;
+  box-shadow:none !important;
+  border: 0;
+} 
+
+.form-control:focus {
+    background-color: lightyellow;
+}

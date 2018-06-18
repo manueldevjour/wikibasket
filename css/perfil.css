@@ -1,0 +1,64 @@
+body {
+    font-family: 'Mukta Mahee', sans-serif;
+}
+.container {
+    margin-top: 2%;
+}
+.user {
+    display: none;
+    text-align: center;
+}
+
+.perfiladmin {
+    text-align: center;
+    color: goldenrod;
+}
+
+.btn-flag {
+    border: none;
+    background-color: #e9ecef;
+}
+
+table {
+    margin: auto;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    background-color: red;
+}
+
+.form-change {
+    border-bottom: 1px solid black;
+}
+
+.ajustes {
+    font-family: 'Graduate', cursive;
+    border-bottom: 1px solid black;
+}
+
+.fecha_nacimiento {
+    font-size: 1.2em;
+}
+
+.mapInfo {
+    margin: auto;
+}
+
+td {
+    padding: 5px 5px 5px 5px;
+}
+
+#userMap {
+    height: 500px;
+    box-shadow: 5px 5px 5px 5px lightslategrey;
+}
+
+#star {
+    color: yellow;
+}
+
+.favorite-team {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}

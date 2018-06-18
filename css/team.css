@@ -1,0 +1,135 @@
+.logo-equipo {
+    width: 60% !important;
+    background-color: #a9a7a78a;
+    border-radius: 50%;
+    border: 3px solid black;
+    box-shadow: 0px 5px 5px lightslategrey;
+    transition: all 1s ease;
+}
+
+.logo-equipo:hover {
+    background-color: white;
+    border: .1px solid #2e3da5;
+    box-shadow: 0px 0px 10px 5px lightslategrey;
+}
+
+.logo-conferencia {
+    width: 25%;
+    background-color: #a9a7a78a;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0px 5px 5px lightslategrey;
+    transition: all 1s ease;
+}
+
+.logo-conferencia:hover {
+    width: 35%;
+    background-color: white;
+    border: .1px solid #2e3da5;
+    box-shadow: 0px 0px 10px 5px lightslategrey;
+}
+
+.first-year-style {
+    border-bottom: 1px solid black;
+    border-bottom-width: thin;
+    transition: all 1s ease;
+}
+
+.first-year-style:hover {
+    border-bottom-width: thick;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+.ranking, .average-stats {
+    transition: all 1s ease;
+}
+
+.ranking:hover, .average-stats:hover {
+    color: white;
+    background-color: #2e3da5;
+}
+
+.card {
+    box-shadow: 0px 5px 5px lightslategrey;
+}
+
+.results {
+    border-bottom: 1px solid black;
+    transition: all 1s ease;
+}
+
+.results:hover {
+    border-bottom-width: medium;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+.victories {
+    color: greenyellow;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+.victories:hover {
+    color: black;
+    background-color: greenyellow;
+}
+
+.defeats {
+    color: red;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+.defeats:hover {
+    color: black;
+    background-color: red;
+}
+
+.percentage {
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+.percentage:hover {
+    font-size: 3em;
+}
+
+.ciudad-origen {
+    border-bottom: 1px solid black;
+    transition: all 1s ease;
+}
+
+.ciudad-origen:hover {
+    border-bottom-width: medium;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+.state-flag {
+    height: 25vh;
+    box-shadow: 0px 5px 5px lightslategrey;
+}
+
+.city-flag {
+    height: 10vh;
+    box-shadow: 0px 5px 5px lightslategrey;
+    transition: all 1s ease;
+}
+
+.city-flag:hover {
+    height: 20vh;
+    box-shadow: 0px 0px 10px 5px lightslategrey;
+
+}
+
+.stadium {
+    box-shadow: 0px 5px 5px lightslategrey;
+}
+
+
+#userMap {
+    height: 300px;
+    box-shadow: 0px 5px 5px lightslategrey;
+}

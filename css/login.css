@@ -1,0 +1,55 @@
+body {
+    background: url("../assets/backgroundlogin.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Verdana, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: 35%;
+}
+
+.brand {
+    color: #b48608; 
+    font-family: 'Bangers', cursive;
+    font-size: 2.7em; 
+    font-weight: 500;
+    text-align: center;
+}
+
+.card-body, .card-footer {
+    background: lightgrey;
+}
+
+form {
+    margin-bottom: 5%;
+}
+
+.btn {
+    width: min-content;
+    padding: 2% 10% 2% 10%;
+}
+
+.form-control:focus {
+    background-color: lightyellow;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+    font-weight: 100;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
